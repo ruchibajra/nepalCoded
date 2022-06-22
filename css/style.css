@@ -1,0 +1,53 @@
+/* external css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: rgb(226, 211, 211);
+    height: 50px;
+    width: 100%;
+    /* container ko bhitra bascha */
+    display: flex; 
+    /* vertically center huncha */
+    align-items: center;
+    /* sabai div element evenly spaced */
+    justify-content: space-evenly;
+}
+
+.logo{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+}
+
+
+.menu{
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    background-color: darkgoldenrod;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

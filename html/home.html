@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2nd web</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .navbar {
+      width: 100%;
+      height: 10vh;
+      display: flex;
+    }
+    .logo {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      background-color: #ff4800;
+      align-items: center;
+    }
+    .logo img {
+      height: 8vh;
+      width: 15vh;
+    }
+    .logo span {
+      padding-left: 20px;
+    }
+    .links {
+      height: 100%;
+      width: 100%;
+      background-color: #ff4800;
+      /* left side ma lyaucha sabai lai */
+      display: flex;
+      /* center ma align gardincha */
+      align-items: center;
+      /* gap chodcha evenly */
+      justify-content: space-evenly;
+    }
+    .links a {
+      color: black;
+      text-decoration: none;
+    }
+    .buttons {
+      height: 100%;
+      width: 100%;
+      background-color: #ff4800;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .buttons button {
+      height: 50%;
+      width: 20%;
+      background-color: rgb(232, 235, 78);
+      border: none;
+      border-radius: 10%;
+    }
+    body {
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      height: 80vh;
+      width: 100%;
+    }
+    .description-box {
+      height: 100%;
+      width: 100%;
+      /* background-color: rgb(12, 151, 98); */
+    }
+    .des-contents {
+      padding-left: 50px;
+      padding-top: 20%;
+    }
+    .des-contents p {
+      font-size: 18px;
+    }
+    .des-btn {
+      height: 70%;
+      width: 40%;
+      padding-top: 50px;
+      border-radius: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .des-btn button {
+      height: 45px;
+      width: 100px;
+      border: none;
+      border-radius: 10%;
+      background-color: aqua;
+    }
+    .user-image {
+      height: 100%;
+      width: 100%;
+    }
+    .user-image img {
+      padding-left: 150px;
+      padding-top: 20%;
+      height: 50%;
+      width: 50%;
+    }
+    .footer {
+      width: 100%;
+      height: 10vh;
+      background-color: gray;
+    }
+  </style>
+
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img
+          src="https://www.pngkey.com/png/detail/197-1976852_nepal-tourism-board-nepal-tourism-board-logo-png.png"
+          alt=""
+        />
+        <span>Nepal</span>
+      </div>
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="buttons"><button>Login</button> <button>Sign Up</button></div>
+    </div>
+
+    <div class="container">
+      <div class="description-box">
+        <div class="des-contents">
+          <h1>INTRODUCTION OF NEPAL</h1>
+          <br />
+          <p>
+            Nepal is a landlocked country in South Asia and is bordered by China
+            and India. It is located in the Himalayas and contains eight of the
+            world's ten highest peaks. The government system is a federal
+            parliamentary republic; the chief of state is the president, and the
+            head of government is the prime minister. Nepal has a traditional
+            economic system in which the majority of the population engages in
+            subsistence agriculture, and the allocation of available resources
+            is made on the basis of primitive methods. Nepal is a member of the
+            South Asian Association for Regional Cooperation (SAARC).
+          </p>
+          <div class="des-btn">
+            <button>Contact Us</button> <button>Why Nepal?</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="user-image">
+        <img
+          src="https://ourtechroom.com/images/486215fact_of_nepal_flag.webp"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>
